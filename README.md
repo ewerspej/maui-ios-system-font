@@ -1,6 +1,6 @@
 # maui-ios-system-font
 
-In Xamarin.Forms it is possible to use platform-specific system fonts, such as `sans-serif-medium'  on Android and `.SFUI-Semibold', without having to import them manually.
+In Xamarin.Forms it is possible to use platform-specific system fonts, such as `sans-serif-medium`  on Android and `.SFUI-Semibold` on iOS, without having to import them manually.
 
 Now, using the `.SFUI-Semibold` font fails on iOS, it defaults to _Times New Roman_, which is the expected behavior for fonts that are unknown on iOS, AFAIK.
 
